@@ -13,7 +13,6 @@ body {
     font-family: SF-Pro;
 }
 
-
 /* Header */
 
 header {
@@ -70,9 +69,8 @@ li a {
 
 li a:hover {
     color: white;
-    font-weight: 600
+    font-weight: 600;
 }
-
 
 /* Main */
 
@@ -81,7 +79,7 @@ p {
 }
 
 p a {
-    color: #0066CC;
+    color: #0066cc;
     text-decoration: none;
 }
 
@@ -97,7 +95,10 @@ section {
     max-height: 680px;
     text-align: center;
 }
-
+section > a {
+    text-decoration: none;
+    color: unset;
+}
 .hero-section {
     padding-top: 50px;
     background-position: center;
@@ -141,7 +142,7 @@ h3 {
 
 .links a {
     font-size: 21px;
-    color: #0066CC;
+    color: #0066cc;
     text-decoration: none;
     margin-left: 20px;
 }
@@ -174,7 +175,11 @@ article {
     min-height: 600px;
     justify-content: center;
 }
-
+article > a {
+    text-decoration: none;
+    color: unset;
+    display: block;
+}
 article h4 {
     font-size: 40px;
     font-weight: 900;
@@ -259,7 +264,7 @@ footer .content {
 }
 
 footer .content p {
-    color: #6E6E73;
+    color: #6e6e73;
     margin: 10px 0;
 }
 
@@ -286,7 +291,7 @@ footer .content p {
     color: #424245;
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width: 770px) {
     .desktop-header {
         display: none;
     }
